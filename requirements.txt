@@ -1,22 +1,22 @@
 altair==5.4.1
-attrs==25.3.0
+attrs==23.2.0
 blinker==1.8.2
-cachetools==5.5.2
-certifi==2025.7.14
-charset-normalizer==3.4.2
-contourpy==1.0.1
+cachetools==5.3.1
+certifi==2024.6.2
+charset-normalizer==3.3.2
+contourpy==1.1.1
 numpy==1.24.4
 matplotlib==3.7.5
 packaging==24.0
 pandas==2.0.3
 pillow==10.3.0
 plotly==5.22.0
-protobuf==4.25.3         # ✅ Downgraded to be compatible
+protobuf==4.25.3
 pyparsing==3.1.2
 python-dateutil==2.9.0
 pytz==2024.1
 requests==2.32.3
-rich==13.7.1             # ✅ Downgraded to fix Streamlit conflict
+rich==13.7.1
 scipy==1.10.1
 seaborn==0.13.2
 six==1.16.0
