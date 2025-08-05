@@ -16,7 +16,7 @@ pyparsing==3.1.2
 python-dateutil==2.9.0
 pytz==2024.1
 requests==2.32.3
-rich==13.7.1
+rich==13.7.1        # ← Downgraded to avoid conflict with streamlit
 scipy==1.10.1
 seaborn==0.13.2
 six==1.16.0
