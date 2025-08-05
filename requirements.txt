@@ -11,12 +11,12 @@ packaging==24.0
 pandas==2.0.3
 pillow==10.3.0
 plotly==5.22.0
-protobuf==4.25.3
+protobuf==4.25.3         # ✅ Downgraded to be compatible
 pyparsing==3.1.2
 python-dateutil==2.9.0
 pytz==2024.1
 requests==2.32.3
-rich==13.7.1        # ✅ Fixed version: compatible with streamlit <14
+rich==13.7.1             # ✅ Downgraded to fix Streamlit conflict
 scipy==1.10.1
 seaborn==0.13.2
 six==1.16.0
